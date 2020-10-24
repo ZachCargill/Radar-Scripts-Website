@@ -431,20 +431,251 @@ img {
         grid-row: 1;
     }
 
+    .faq-1 .container {
+        overflow: hidden;
+    }
+    
+    .faq-1 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 700px;
+        height: 180px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-1 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .faq-2 .container {
+        overflow: hidden;
+    }
+    
+    .faq-2 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 700px;
+        height: 180px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-2 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .faq-3 .container {
+        overflow: hidden;
+    }
+    
+    .faq-3 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 700px;
+        height: 270px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-3 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .faq-4 .container {
+        overflow: hidden;
+    }
+    
+    .faq-4 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 700px;
+        height: 180px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-4 .card:hover {
+        transform: translateY(-15px);
+    }
+
 }
 
 /* Mobile */
 @media(max-width: 500px) {
     .navbar {
         height: 110px;
+        overflow: hidden;
     }
 
     .navbar .flex {
         flex-direction: column;
+        overflow: hidden;
     }
 
     .navbar ul {
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.1);
     }
+
+    .showcase p {
+        margin: 20px 0;
+    
+    }
+    
+    .showcase-card {
+        width: 350px;
+    }
+
+    .features .grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .features .container .grid{
+        display: flex;
+        height: 100%;
+    }
+
+    .features .container i{
+        display: none;
+    }
+
+    .features-1 .container {
+        overflow: hidden;
+    }
+
+    .features-head i {
+        justify-self: center;
+    }
+
+    .features-head .container .yes {
+            max-width: 1100px;
+            display: flexbox;
+            overflow: auto;
+            padding: initial;
+    }
+    
+    .features-1 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 390px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .features-1 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .features-2 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 280px;
+    }
+    
+    .features-2 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .features-3 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 340px;
+    }
+    
+    .features-3 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .features-4 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 270px;
+    }
+
+    .faq-1 .container {
+        overflow: hidden;
+    }
+    
+    .faq-1 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 280px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-1 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .faq-2 .container {
+        overflow: hidden;
+    }
+    
+    .faq-2 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 250px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-2 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .faq-3 .container {
+        overflow: hidden;
+    }
+    
+    .faq-3 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 520px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-3 .card:hover {
+        transform: translateY(-15px);
+    }
+    
+    .faq-4 .container {
+        overflow: hidden;
+    }
+    
+    .faq-4 .card {
+        text-align: left;
+        margin: 18px 10px 40px;
+        transition: transform 0.2s ease-in;
+        width: 350px;
+        height: 270px;
+        animation: slideInFromBottom 1s ease-in;
+        overflow: hidden;
+    }
+    
+    .faq-4 .card:hover {
+        transform: translateY(-15px);
+    }
+
+
 }
