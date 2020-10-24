@@ -117,6 +117,20 @@ img {
     -ms-transform: skewY(-2deg);
 }
 
+.features-head::before, .features-head::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -80px;
+    right: 0;
+    left: 0;
+    background: #fff;
+    transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+}
+
 /* Stats */
 .stats {
     padding-top: 100px;
