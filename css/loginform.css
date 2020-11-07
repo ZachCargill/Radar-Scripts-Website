@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+:root {
+  --primary-color: rgba(28, 28, 28, 1);
+  --secondary-color: rgba(28, 28, 28, 1);
+  --font-color: rgb(255, 255, 255);
+  --background-color: linear-gradient(180deg, rgba(28,28,28,1) 0%, rgba(28,28,28,1) 27%, rgba(222,17,17,1) 100%);
+  --input-color: rgb(33, 41, 61);
+  --button-color: rgb(59, 176, 53);
+}
+
+:root {
+  --popup-background-color: ##POPUP_BACKGROUND_COLOR##;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: var(--background-color);
+  background-size: cover;
+}
+
+input,
+select {
+  line-height: 3em;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--input-color);
+  outline: none;
+  flex-grow: 100;
+  margin: 7px;
+  margin-top: 30px;
+  width: 263px;
+  padding-left: 10px;
+  opacity: 0.5;
+  caret-color: #fff;
+  color: #fff;
+}
+
+.loginh1 {
+  color: white;
+}
+
+
+.login-form {
+  width: 360px;
+  background: transparent;
+  height: 275px;
+  padding: 40px 40px 40px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.txtb {
+  border-bottom: 2px solid #adadad;
+  position: relative;
+  margin: 30px 0;
+}
+
+.txtb input {
+  font-size: 15px;
+  color: rgb(134, 133, 133);
+  border: none;
+  width: 100%;
+  outline: none;
+  background: none;
+  padding: 0 5px;
+  height: 40px;
+  text-align: center;
+}
+
+.txtb span {
+  font-size: 15.3px;
+}
+
+.txtb span::before {
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.txtb span::after {
+  content: "";
+  position: static;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(360deg, rgb(48, 58, 80), rgb(36, 46, 64));
+  transition: 0.5s;
+}
+
+.focus + span::before {
+  top: -5px;
+}
+
+.focus + span::after {
+  width: 100%;
+}
+
+.logbtn {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: var(--button-color);
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bottom-text {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.login-logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  display: block;
+}
